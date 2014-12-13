@@ -1,0 +1,16 @@
+############################################################
+#
+# Copyright Altera 2013
+# All Rights Reserved
+# File: linux.ds
+#
+############################################################
+
+#
+# Launch uboot for the Golden Hardware Reference Design
+#
+source -v "$sdir/../../cubic_soc_base/software/preloader/uboot.ds"
+
+delete
+cont
+

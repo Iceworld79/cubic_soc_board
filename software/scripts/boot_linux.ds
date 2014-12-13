@@ -1,0 +1,22 @@
+############################################################
+#
+# Copyright Altera 2013
+# All Rights Reserved
+# File: linux.ds
+#
+############################################################
+
+#
+# Launch uboot for the Golden Hardware Reference Design
+#
+source -v "$sdir/../../cubic_soc_base/software/preloader/uboot.ds"
+
+#
+# Load Linux uImage and Device Tree Blob
+#
+restore "$sdir/../linux/zImage" binary 0x8000
+restore "$sdir/../linux/soc_system.dtb" binary 0x100
+
+delete
+cont
+

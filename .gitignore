@@ -23,6 +23,4 @@ cio_dump_disallowed_lists.echo
 reconfig_mif/
 tgz/
 
-*.dtb
-
 *.o
