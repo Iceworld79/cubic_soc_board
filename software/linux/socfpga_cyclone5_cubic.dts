@@ -80,7 +80,7 @@
 };
 
 &usb1 {
-	status = "disabled";
+	status = "okay";
 };
 
 &watchdog0 {
