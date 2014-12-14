@@ -23,4 +23,6 @@ cio_dump_disallowed_lists.echo
 reconfig_mif/
 tgz/
 
+cubic_soc_base/software/
+
 *.o
